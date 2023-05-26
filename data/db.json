@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Jagadish",
+      "nickName": "Akjaga"
+    },
+    {
+      "fullName": "Jagadishwaren",
+      "email_id": "jagadishwaranvr345@gmail.com",
+      "phone_number": "9677681135",
+      "date_of_birth": "2023-05-05",
+      "gender": "male",
+      "schedule_preference": "Morning Session 1:00PM to 2:30PM",
+      "class_level": "Level - 1 Beginner Class",
+      "session_packages": "Unlimited Monthly $150.00 for each month",
+      "id": 2
+    },
+    {
+      "fullName": "ssdsdsdsdsd",
+      "email_id": "sdsdsds@gmail.com",
+      "phone_number": "544555",
+      "date_of_birth": "2023-05-31",
+      "gender": "male",
+      "schedule_preference": "Morning Session 9:00AM to 11:00AM",
+      "class_level": "Level - 1 Beginner Class",
+      "session_packages": "Unlimited Monthly $150.00 for each month",
+      "id": 3
+    },
+    {
+      "fullName": "Jagadishwaren",
+      "email_id": "jagadishwaranvr345@gmail.com",
+      "phone_number": "0967768113",
+      "date_of_birth": "2023-05-12",
+      "gender": "male",
+      "schedule_preference": "Morning Session 11:00AM to 1:00PM",
+      "class_level": "Level - 1 Beginner Class",
+      "session_packages": "Unlimited Monthly $150.00 for each month",
+      "id": 4
+    }
+  ]
+}
