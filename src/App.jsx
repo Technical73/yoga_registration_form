@@ -73,9 +73,9 @@ function App() {
           {/* Grid layout Starts from over here */}
           <div className="layout">
             {/* fullName Input Field starts */}
-            <div className="mb-2 w-full">
+            <div className="mb-3 w-full">
               <label
-                className="font-bold block mb-2 text-gray-700 text-sm"
+                className="font-bold block mb-1 text-gray-700 text-sm"
                 htmlFor="fullName"
               >
                 FullName{" "}
@@ -99,7 +99,7 @@ function App() {
             {/* Email Id Input Field starts */}
             <div className="mb-3 w-full">
               <label
-                className="font-bold block mb-2 text-gray-700 text-sm"
+                className="font-bold block mb-1 text-gray-700 text-sm"
                 htmlFor="emailId"
               >
                 Email Id{" "}
@@ -124,7 +124,7 @@ function App() {
             {/* Phone Number Input Field starts */}
             <div className="mb-3 w-full">
               <label
-                className="font-bold block mb-2 text-gray-700 text-sm"
+                className="font-bold block mb-1 text-gray-700 text-sm"
                 htmlFor="phoneNumber"
               >
                 Phone Number{" "}
@@ -149,7 +149,7 @@ function App() {
             {/* Date of Birth Input Field starts */}
             <div className="mb-3 w-full">
               <label
-                className="font-bold block mb-2 text-gray-700 text-sm"
+                className="font-bold block mb-1 text-gray-700 text-sm"
                 htmlFor="dateOfBirth"
               >
                 Date of Birth{" "}
@@ -171,13 +171,13 @@ function App() {
             </div>
             {/* Date of Birth Input Field Ends */}
             {/* Gender Input Field starts */}
-            <div className="flex flex-col items-start justify-center">
-              <legend className="font-bold block mb-2 text-gray-700 text-sm">
+            <div className="flex mb-3 flex-col items-start justify-center">
+              <label className="font-bold block mb-1 text-gray-700 text-sm">
                 Gender{" "}
                 <span className="text-red-700 align-top text-sm font-bold ">
                   *
                 </span>
-              </legend>
+              </label>
               <div className="mb-[0.125rem]  min-h-[1.5rem] ">
                 <input
                   type="radio"
@@ -220,7 +220,7 @@ function App() {
             <div className="mb-3">
               <label
                 htmlFor="schedulePreference"
-                className="font-bold block mb-2 text-gray-700 text-sm"
+                className="font-bold block mb-1 text-gray-700 text-sm"
               >
                 {" "}
                 Schedule Preference{" "}
@@ -258,7 +258,7 @@ function App() {
             <div className="mb-3">
               <label
                 htmlFor="ClassLevel"
-                className="font-bold block mb-2 text-gray-700 text-sm"
+                className="font-bold block mb-1 text-gray-700 text-sm"
               >
                 {" "}
                 Class Level{" "}
@@ -294,7 +294,7 @@ function App() {
             <div className="mb-3">
               <label
                 htmlFor="sessionPackages"
-                className="font-bold block mb-2 text-gray-700 text-sm"
+                className="font-bold block mb-1 text-gray-700 text-sm"
               >
                 {" "}
                 Session Packages{" "}
@@ -332,7 +332,7 @@ function App() {
 
           {/* Grid layout Ends over here */}
           {/* Submit and Cancel Starts */}
-          <div className="flex justify-start items-center mb-3">
+          <div className="flex justify-start items-center mt-2">
             <button
               className="bg-blue-500 hover:bg-blue-700 mr-2 text-white font-bold py-2 px-4  rounded focus:outline-none focus:shadow-outline"
               type="submit"

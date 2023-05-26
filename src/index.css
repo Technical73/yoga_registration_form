@@ -10,13 +10,13 @@
   box-sizing: border-box;
 }
 .main_container {
-  @apply min-h-screen py-4 bg-customColor flex justify-center items-center;
+  @apply min-h-screen py-3 bg-customColor flex justify-center items-center;
 }
 .form_group {
-  @apply border bottom-2 border-orange-500 px-5 mt-3 rounded-lg shadow-md w-11/12 md:w-customWidth bg-white;
+  @apply border bottom-2 border-orange-500 px-5 py-3 rounded-lg shadow-md w-11/12 md:w-customWidth bg-white;
 }
 .header {
-  @apply flex justify-between items-center mb-2;
+  @apply flex justify-between items-center mb-2 w-full;
 }
 .header h2 {
   @apply font-poppins font-extrabold  text-lg  md:text-2xl bg-gradient-to-r from-orange-600 via-yellow-500 to-orange-600 text-transparent text-start md:text-justify
