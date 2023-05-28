@@ -37,6 +37,17 @@
       "class_level": "Level - 1 Beginner Class",
       "session_packages": "Unlimited Monthly $150.00 for each month",
       "id": 4
+    },
+    {
+      "fullName": "Jagadish VR",
+      "email_id": "jagadishwaranvr345@gmail.com",
+      "phone_number": "8667297629",
+      "date_of_birth": "2000-10-07",
+      "gender": "male",
+      "schedule_preference": "Morning Session 11:00AM to 1:00PM",
+      "class_level": "Level - 2 Intermediate Class",
+      "session_packages": "10 Sessions $90.00 for each month",
+      "id": 5
     }
   ]
 }
